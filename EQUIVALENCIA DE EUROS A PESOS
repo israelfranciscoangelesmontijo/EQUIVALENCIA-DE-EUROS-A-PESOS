@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+int EUROS;
+printf("EQUIVALENCIA DE EUROS A PESOS\n");
+printf("INGRESE CANTIDAD DE EUROS:\n");
+scanf("%d",&EUROS);
+int PESOS=(23.35*EUROS);
+printf("LA EQUIVALENCIA ES: %d pesos", PESOS);
+return 0;
+}
